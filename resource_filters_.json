@@ -182,7 +182,8 @@
       "textColor": "#FFFFFF",
       "imageURL": "",
       "groupId": "58e50d4e-bd7d-4ad9-9400-a1ec98222398"
-    },{
+    },
+    {
       "id": "b37c8c0a-bb3a-45a5-a031-b18d684d03f8",
       "name": "DolbyAtmos",
       "pattern": "(?i)\\batmos\\b",
@@ -208,8 +209,8 @@
     },
     {
       "id": "d2639f73-beb8-4f17-a08e-b7e1ec9f81f4",
-      "name": "Dolby Digital +",
-      "pattern": "(?i)\\b(dolby[\\s_\\-]*digital[\\s_\\-]*\\+|dolbydigital\\+|dd\\+|ddplus|ddp|eac3)\\b",
+      "name": "DD+",
+      "pattern": "(?i)(dolby[\\s_\\-]*digital[\\s_\\-]*\\+|dolbydigital\\+|dd\\+|ddplus|ddp|eac3)",
       "type": "filter",
       "isEnabled": true,
       "tagStyle": "filled",
@@ -232,7 +233,7 @@
     },
     {
       "id": "c812ecde-5634-4cd8-9d74-18bd5c7f7ec3",
-      "name": "Dolby Digital",
+      "name": "DD",
       "pattern": "(?i)\\bdolby[\\s\\-]?digital\\b",
       "type": "filter",
       "isEnabled": true,
