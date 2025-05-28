@@ -137,7 +137,7 @@
     {
       "id": "377fe9bc-a41d-47e8-b0a4-eb6fc6942cdb",
       "name": "HDR10+",
-      "pattern": "(?i)\\bhdr10\\+p?\\b",
+      "pattern": "(?i)hdr10[\s_\-]*\+p?",
       "type": "filter",
       "isEnabled": true,
       "tagStyle": "filled",
