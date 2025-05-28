@@ -302,7 +302,7 @@
       "imageURL": "",
       "groupId": "4296f1dc-348d-4c77-9f14-cebb2c761491"
     },
-    {
+      {
       "id": "2db56a83-607e-4b3c-aa74-4a8f3045ef9a",
       "name": "7.1",
       "pattern": "(?i)\\b7[.\\s]?1\\b",
@@ -329,7 +329,7 @@
     {
       "id": "94840eec-b4a5-46aa-b573-81855ac957c0",
       "name": "5.1",
-      "pattern": "(?i)\\b5[.\\s]?1\\b",
+      "pattern": "(?i)(?:[^a-z0-9]|^)5[.\\s]?1(?:[^a-z0-9]|$)|5\\.1$|aac5\\.1",
       "type": "filter",
       "isEnabled": true,
       "tagStyle": "filled",
@@ -337,6 +337,18 @@
       "textColor": "#FFFFFF",
       "imageURL": "",
       "groupId": "bb1fb6b0-5a51-4cb6-a550-2fe19c07c35f"
+    },
+    {
+      "id": "e7c58a01-bb87-406f-9375-12840dfc5a56",
+      "name": "2.0",
+      "pattern": "(?<!\\d)2[.\\s]?0(?!\\d)",
+      "type": "filter",
+      "isEnabled": true,
+      "tagStyle": "filled",
+      "tagColor": "#000000",
+      "textColor": "#FFFFFF",
+      "imageURL": "",
+      "groupId": "4296f1dc-348d-4c77-9f14-cebb2c761491"
     },
 
     { "id": "c0aa8891-361e-4f98-bae2-8f3b9ae34c0f", "name": "🇬🇧 English", "pattern": "(?i)\\benglish\\b", "type": "filter", "isEnabled": true, "tagStyle": "filled", "tagColor": "#000000", "textColor": "#FFFFFF", "imageURL": "", "groupId": "06a38a24-022f-4a04-a0aa-09e8bbf94f28" },
