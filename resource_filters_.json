@@ -122,8 +122,7 @@
       "textColor": "#FFFFFF",
       "imageURL": "",
       "groupId": "e6bd5912-d7fa-4062-863c-a32536f5aa60"
-    },
-    {
+    },{
       "id": "add337b4-31d7-455c-8521-6a1074fe532c",
       "name": "Dolby Vision",
       "pattern": "(?i)\\b(dolby\\s*vision|dv)\\b",
@@ -138,7 +137,7 @@
     {
       "id": "377fe9bc-a41d-47e8-b0a4-eb6fc6942cdb",
       "name": "HDR10+",
-      "pattern": "(?i)\\bhdr10[+p]?\\b",
+      "pattern": "(?i)\\bhdr10\\+p?\\b",
       "type": "filter",
       "isEnabled": true,
       "tagStyle": "filled",
@@ -150,7 +149,7 @@
     {
       "id": "6713e630-ac50-49ce-9c68-7ead3c4bad6f",
       "name": "HDR10",
-      "pattern": "(?i)\\bhdr10\\b",
+      "pattern": "(?i)\\bhdr10(?!\\+)\\b",
       "type": "filter",
       "isEnabled": true,
       "tagStyle": "filled",
@@ -163,6 +162,18 @@
       "id": "9493aab1-d008-4667-8e17-2c0dce39d045",
       "name": "HDR",
       "pattern": "(?i)\\bhdr\\b",
+      "type": "filter",
+      "isEnabled": true,
+      "tagStyle": "filled",
+      "tagColor": "#000000",
+      "textColor": "#FFFFFF",
+      "imageURL": "",
+      "groupId": "58e50d4e-bd7d-4ad9-9400-a1ec98222398"
+    },
+    {
+      "id": "80d20c34-2fbd-4b9d-bd5c-5fcd64c6b173",
+      "name": "IMAX",
+      "pattern": "(?i)\\bimax\\b",
       "type": "filter",
       "isEnabled": true,
       "tagStyle": "filled",
