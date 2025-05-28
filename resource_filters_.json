@@ -207,6 +207,18 @@
       "groupId": "4296f1dc-348d-4c77-9f14-cebb2c761491"
     },
     {
+      "id": "d2639f73-beb8-4f17-a08e-b7e1ec9f81f4",
+      "name": "Dolby Digital +",
+      "pattern": "(?i)\\b(dolby[\\s_\\-]*digital[\\s_\\-]*\\+|dolbydigital\\+|dd\\+|ddplus|ddp|eac3)\\b",
+      "type": "filter",
+      "isEnabled": true,
+      "tagStyle": "filled",
+      "tagColor": "#000000",
+      "textColor": "#FFFFFF",
+      "imageURL": "",
+      "groupId": "4296f1dc-348d-4c77-9f14-cebb2c761491"
+    },
+    {
       "id": "bba84338-0ef6-4b5e-822e-2be2f707fb8b",
       "name": "DTS-HD MA",
       "pattern": "(?i)\\bdts[-\\s]*hd(?:[.\\s]*ma|ma)\\b",
