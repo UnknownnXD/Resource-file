@@ -206,8 +206,7 @@
       "textColor": "#FFFFFF",
       "imageURL": "",
       "groupId": "4296f1dc-348d-4c77-9f14-cebb2c761491"
-    },
-    {
+    },{
       "id": "d2639f73-beb8-4f17-a08e-b7e1ec9f81f4",
       "name": "DD+",
       "pattern": "(?i)(dolby[\\s_\\-]*digital[\\s_\\-]*\\+|dolbydigital\\+|dd\\+|ddplus|ddp|eac3)",
@@ -234,7 +233,7 @@
     {
       "id": "c812ecde-5634-4cd8-9d74-18bd5c7f7ec3",
       "name": "DD",
-      "pattern": "(?i)\\bdolby[\\s\\-]?digital\\b",
+      "pattern": "(?i)\\bdd(?!p|[\\s\\-]*digital|\\+)\\b|\\bdd(?=5[. ]?1)",
       "type": "filter",
       "isEnabled": true,
       "tagStyle": "filled",
@@ -246,7 +245,7 @@
     {
       "id": "938da482-acf4-4e37-81da-37b02f85b5c3",
       "name": "DTS",
-      "pattern": "(?i)\\bdts\\b",
+      "pattern": "(?i)\\bdts\\b(?![-\\s]*hd)",
       "type": "filter",
       "isEnabled": true,
       "tagStyle": "filled",
