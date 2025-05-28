@@ -1,0 +1,66 @@
+{
+  "style": {
+    "backgroundColor": "#000000",
+    "textColor": "#FFFFFF"
+  },
+  "filterGroups": [
+    {
+      "name": "Resolution",
+      "filters": [
+        "4K",
+        "1440p",
+        "1080p",
+        "720p"
+      ]
+    },
+    {
+      "name": "Media Source",
+      "filters": [
+        "Remux",
+        "BluRay",
+        "WEB-DL"
+      ]
+    },
+    {
+      "name": "Dynamic Range",
+      "filters": [
+        "Dolby Vision",
+        "HDR10+",
+        "HDR10",
+        "HDR",
+        "SDR"
+      ]
+    },
+    {
+      "name": "Audio",
+      "filters": [
+        "Dolby TrueHD",
+        "DTS-HD MA",
+        "DTS",
+        "Dolby Digital",
+        "FLAC",
+        "AAC"
+      ]
+    },
+    {
+      "name": "Audio Channels",
+      "filters": [
+        "Atmos",
+        "7.1",
+        "5.1",
+        "2.0"
+      ]
+    },
+    {
+      "name": "Stream Languages",
+      "filters": [
+        "English",
+        "Japanese",
+        "French",
+        "German",
+        "Spanish",
+        "Hindi"
+      ]
+    }
+  ]
+}
