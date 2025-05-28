@@ -7,6 +7,7 @@
       "isExpanded": true
     },
     {
+      
       "id": "e6bd5912-d7fa-4062-863c-a32536f5aa60",
       "name": "Media Source",
       "color": "#96CEB4",
@@ -181,6 +182,17 @@
       "textColor": "#FFFFFF",
       "imageURL": "",
       "groupId": "58e50d4e-bd7d-4ad9-9400-a1ec98222398"
+    },{
+      "id": "b37c8c0a-bb3a-45a5-a031-b18d684d03f8",
+      "name": "DolbyAtmos",
+      "pattern": "(?i)\\batmos\\b",
+      "type": "filter",
+      "isEnabled": true,
+      "tagStyle": "filled",
+      "tagColor": "#000000",
+      "textColor": "#FFFFFF",
+      "imageURL": "",
+      "groupId": "4296f1dc-348d-4c77-9f14-cebb2c761491"
     },
     {
       "id": "b25c81e1-82f6-40b4-acff-04a46cf92014",
@@ -197,7 +209,7 @@
     {
       "id": "bba84338-0ef6-4b5e-822e-2be2f707fb8b",
       "name": "DTS-HD MA",
-      "pattern": "(?i)\\bdts[-\\s]*hd[.\\s]*ma|dts[-\\s]*hdma\\b",
+      "pattern": "(?i)\\bdts[-\\s]*hd(?:[.\\s]*ma|ma)\\b",
       "type": "filter",
       "isEnabled": true,
       "tagStyle": "filled",
@@ -209,7 +221,7 @@
     {
       "id": "c812ecde-5634-4cd8-9d74-18bd5c7f7ec3",
       "name": "Dolby Digital",
-      "pattern": "(?i)\\b(dolby\\s*digital|dd)\\b",
+      "pattern": "(?i)\\bdolby[\\s\\-]?digital\\b",
       "type": "filter",
       "isEnabled": true,
       "tagStyle": "filled",
@@ -253,18 +265,6 @@
       "textColor": "#FFFFFF",
       "imageURL": "",
       "groupId": "4296f1dc-348d-4c77-9f14-cebb2c761491"
-    },
-    {
-      "id": "b37c8c0a-bb3a-45a5-a031-b18d684d03f8",
-      "name": "DolbyAtmos",
-      "pattern": "(?i)\\batmos\\b",
-      "type": "filter",
-      "isEnabled": true,
-      "tagStyle": "filled",
-      "tagColor": "#000000",
-      "textColor": "#FFFFFF",
-      "imageURL": "",
-      "groupId": "bb1fb6b0-5a51-4cb6-a550-2fe19c07c35f"
     },
     {
       "id": "2db56a83-607e-4b3c-aa74-4a8f3045ef9a",
