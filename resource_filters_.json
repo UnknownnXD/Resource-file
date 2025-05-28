@@ -194,6 +194,18 @@
       "imageURL": "",
       "groupId": "58e50d4e-bd7d-4ad9-9400-a1ec98222398"
     },
+   {
+      "id": "41d4ea07-55e2-4b10-93ff-f9f3690f73b5",
+      "name": "DTS:X",
+      "pattern": "(?i)\\bdts[:\\-\\s]?x\\b",
+      "type": "filter",
+      "isEnabled": true,
+      "tagStyle": "filled",
+      "tagColor": "#000000",
+      "textColor": "#FFFFFF",
+      "imageURL": "",
+      "groupId": "4296f1dc-348d-4c77-9f14-cebb2c761491"
+    },
     {
       "id": "b37c8c0a-bb3a-45a5-a031-b18d684d03f8",
       "name": "DolbyAtmos",
@@ -217,10 +229,11 @@
       "textColor": "#FFFFFF",
       "imageURL": "",
       "groupId": "4296f1dc-348d-4c77-9f14-cebb2c761491"
-    },{
-      "id": "d2639f73-beb8-4f17-a08e-b7e1ec9f81f4",
-      "name": "DD+",
-      "pattern": "(?i)(dolby[\\s_\\-]*digital[\\s_\\-]*\\+|dolbydigital\\+|dd\\+|ddplus|ddp|eac3)",
+    },
+    {
+      "id": "bba84338-0ef6-4b5e-822e-2be2f707fb8b",
+      "name": "DTS-HD MA",
+      "pattern": "(?i)\\bdts[-\\s]*hd(?:[.\\s]*ma|ma)\\b",
       "type": "filter",
       "isEnabled": true,
       "tagStyle": "filled",
@@ -230,9 +243,9 @@
       "groupId": "4296f1dc-348d-4c77-9f14-cebb2c761491"
     },
     {
-      "id": "bba84338-0ef6-4b5e-822e-2be2f707fb8b",
-      "name": "DTS-HD MA",
-      "pattern": "(?i)\\bdts[-\\s]*hd(?:[.\\s]*ma|ma)\\b",
+      "id": "d2639f73-beb8-4f17-a08e-b7e1ec9f81f4",
+      "name": "DD+",
+      "pattern": "(?i)(dolby[\\s_\\-]*digital[\\s_\\-]*\\+|dolbydigital\\+|dd\\+|ddplus|ddp|eac3)",
       "type": "filter",
       "isEnabled": true,
       "tagStyle": "filled",
@@ -302,21 +315,21 @@
       "groupId": "bb1fb6b0-5a51-4cb6-a550-2fe19c07c35f"
     },
     {
-      "id": "94840eec-b4a5-46aa-b573-81855ac957c0",
-      "name": "5.1",
-      "pattern": "(?i)\\b5[.\\s]?1\\b",
+      "id": "bf3f868d-b747-48fa-87f7-4a61a326a970",
+      "name": "6.1",
+      "pattern": "(?i)(?:[^a-z0-9]|^)6[.\\s]?1(?:[^a-z0-9]|$)",
       "type": "filter",
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#000000",
       "textColor": "#FFFFFF",
       "imageURL": "",
-      "groupId": "bb1fb6b0-5a51-4cb6-a550-2fe19c07c35f"
+      "groupId": "4296f1dc-348d-4c77-9f14-cebb2c761491"
     },
     {
-      "id": "bf893518-e41c-4dbe-9c80-eb6e664660fb",
-      "name": "2.0",
-      "pattern": "(?i)\\b20\\b",
+      "id": "94840eec-b4a5-46aa-b573-81855ac957c0",
+      "name": "5.1",
+      "pattern": "(?i)\\b5[.\\s]?1\\b",
       "type": "filter",
       "isEnabled": true,
       "tagStyle": "filled",
