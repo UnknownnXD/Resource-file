@@ -1,0 +1,390 @@
+{
+  "groups": [
+    {
+      "id": "dd43f579-e046-4c14-9736-513cf51e0f2e",
+      "name": "Resolution",
+      "color": "#4ECDC4",
+      "isExpanded": true
+    },
+    {
+      "id": "e6bd5912-d7fa-4062-863c-a32536f5aa60",
+      "name": "Media Source",
+      "color": "#96CEB4",
+      "isExpanded": true
+    },
+    {
+      "id": "58e50d4e-bd7d-4ad9-9400-a1ec98222398",
+      "name": "Dynamic Range",
+      "color": "#FF6B6B",
+      "isExpanded": true
+    },
+    {
+      "id": "4296f1dc-348d-4c77-9f14-cebb2c761491",
+      "name": "Audio",
+      "color": "#45B7D1",
+      "isExpanded": true
+    },
+    {
+      "id": "bb1fb6b0-5a51-4cb6-a550-2fe19c07c35f",
+      "name": "Audio Channels",
+      "color": "#FFD700",
+      "isExpanded": true
+    },
+    {
+      "id": "06a38a24-022f-4a04-a0aa-09e8bbf94f28",
+      "name": "Stream Languages",
+      "color": "#FFA07A",
+      "isExpanded": true
+    }
+  ],
+  "filters": [
+    {
+      "id": "3a060bde-df60-4243-a7d3-adaabb0e0a37",
+      "name": "Remux",
+      "pattern": "(?i)\\bremux\\b",
+      "type": "filter",
+      "isEnabled": true,
+      "tagStyle": "filled",
+      "tagColor": "#000000",
+      "textColor": "#FFFFFF",
+      "imageURL": "",
+      "groupId": "e6bd5912-d7fa-4062-863c-a32536f5aa60"
+    },
+    {
+      "id": "a7d879d4-fe18-49cc-aae6-031797a726d8",
+      "name": "BluRay",
+      "pattern": "(?i)\\bbluray\\b",
+      "type": "filter",
+      "isEnabled": true,
+      "tagStyle": "filled",
+      "tagColor": "#000000",
+      "textColor": "#FFFFFF",
+      "imageURL": "",
+      "groupId": "e6bd5912-d7fa-4062-863c-a32536f5aa60"
+    },
+    {
+      "id": "7d8a6edd-dcb8-43d4-bb29-8138a76db192",
+      "name": "WEB-DL",
+      "pattern": "(?i)\\bweb-dl\\b",
+      "type": "filter",
+      "isEnabled": true,
+      "tagStyle": "filled",
+      "tagColor": "#000000",
+      "textColor": "#FFFFFF",
+      "imageURL": "",
+      "groupId": "e6bd5912-d7fa-4062-863c-a32536f5aa60"
+    },
+    {
+      "id": "6919b86c-19e2-4103-bff1-ef3bfeb7118d",
+      "name": "4K",
+      "pattern": "(?i)\\b(2160p|4K)\\b",
+      "type": "filter",
+      "isEnabled": true,
+      "tagStyle": "filled",
+      "tagColor": "#000000",
+      "textColor": "#FFFFFF",
+      "imageURL": "",
+      "groupId": "dd43f579-e046-4c14-9736-513cf51e0f2e"
+    },
+    {
+      "id": "89e56ede-19ce-4da5-b245-31f769e4967f",
+      "name": "1440p",
+      "pattern": "(?i)\\b1440p\\b",
+      "type": "filter",
+      "isEnabled": true,
+      "tagStyle": "filled",
+      "tagColor": "#000000",
+      "textColor": "#FFFFFF",
+      "imageURL": "",
+      "groupId": "dd43f579-e046-4c14-9736-513cf51e0f2e"
+    },
+    {
+      "id": "c730dea1-2e53-4686-ad3a-3f0945414e52",
+      "name": "1080p",
+      "pattern": "(?i)\\b1080p\\b",
+      "type": "filter",
+      "isEnabled": true,
+      "tagStyle": "filled",
+      "tagColor": "#000000",
+      "textColor": "#FFFFFF",
+      "imageURL": "",
+      "groupId": "dd43f579-e046-4c14-9736-513cf51e0f2e"
+    },
+    {
+      "id": "f1eaa1b0-6b23-4b9d-b6e2-49ec1d8b9020",
+      "name": "720p",
+      "pattern": "(?i)\\b720p\\b",
+      "type": "filter",
+      "isEnabled": true,
+      "tagStyle": "filled",
+      "tagColor": "#000000",
+      "textColor": "#FFFFFF",
+      "imageURL": "",
+      "groupId": "dd43f579-e046-4c14-9736-513cf51e0f2e"
+    },
+    {
+      "id": "add337b4-31d7-455c-8521-6a1074fe532c",
+      "name": "Dolby Vision",
+      "pattern": "(?i)\\bdolbyvision\\b",
+      "type": "filter",
+      "isEnabled": true,
+      "tagStyle": "filled",
+      "tagColor": "#000000",
+      "textColor": "#FFFFFF",
+      "imageURL": "",
+      "groupId": "58e50d4e-bd7d-4ad9-9400-a1ec98222398"
+    },
+    {
+      "id": "377fe9bc-a41d-47e8-b0a4-eb6fc6942cdb",
+      "name": "HDR10+",
+      "pattern": "(?i)\\bhdr10p\\b",
+      "type": "filter",
+      "isEnabled": true,
+      "tagStyle": "filled",
+      "tagColor": "#000000",
+      "textColor": "#FFFFFF",
+      "imageURL": "",
+      "groupId": "58e50d4e-bd7d-4ad9-9400-a1ec98222398"
+    },
+    {
+      "id": "6713e630-ac50-49ce-9c68-7ead3c4bad6f",
+      "name": "HDR10",
+      "pattern": "(?i)\\bhdr10\\b",
+      "type": "filter",
+      "isEnabled": true,
+      "tagStyle": "filled",
+      "tagColor": "#000000",
+      "textColor": "#FFFFFF",
+      "imageURL": "",
+      "groupId": "58e50d4e-bd7d-4ad9-9400-a1ec98222398"
+    },
+    {
+      "id": "9493aab1-d008-4667-8e17-2c0dce39d045",
+      "name": "HDR",
+      "pattern": "(?i)\\bhdr\\b",
+      "type": "filter",
+      "isEnabled": true,
+      "tagStyle": "filled",
+      "tagColor": "#000000",
+      "textColor": "#FFFFFF",
+      "imageURL": "",
+      "groupId": "58e50d4e-bd7d-4ad9-9400-a1ec98222398"
+    },
+    {
+      "id": "d2b44edb-c6a4-43e3-a9cb-21c9185132f2",
+      "name": "SDR",
+      "pattern": "(?i)\\bsdr\\b",
+      "type": "filter",
+      "isEnabled": true,
+      "tagStyle": "filled",
+      "tagColor": "#000000",
+      "textColor": "#FFFFFF",
+      "imageURL": "",
+      "groupId": "58e50d4e-bd7d-4ad9-9400-a1ec98222398"
+    },
+    {
+      "id": "b25c81e1-82f6-40b4-acff-04a46cf92014",
+      "name": "Dolby TrueHD",
+      "pattern": "(?i)\\bdolbytruehd\\b",
+      "type": "filter",
+      "isEnabled": true,
+      "tagStyle": "filled",
+      "tagColor": "#000000",
+      "textColor": "#FFFFFF",
+      "imageURL": "",
+      "groupId": "4296f1dc-348d-4c77-9f14-cebb2c761491"
+    },
+    {
+      "id": "bba84338-0ef6-4b5e-822e-2be2f707fb8b",
+      "name": "DTS-HD MA",
+      "pattern": "(?i)\\bdts-hdma\\b",
+      "type": "filter",
+      "isEnabled": true,
+      "tagStyle": "filled",
+      "tagColor": "#000000",
+      "textColor": "#FFFFFF",
+      "imageURL": "",
+      "groupId": "4296f1dc-348d-4c77-9f14-cebb2c761491"
+    },
+    {
+      "id": "938da482-acf4-4e37-81da-37b02f85b5c3",
+      "name": "DTS",
+      "pattern": "(?i)\\bdts\\b",
+      "type": "filter",
+      "isEnabled": true,
+      "tagStyle": "filled",
+      "tagColor": "#000000",
+      "textColor": "#FFFFFF",
+      "imageURL": "",
+      "groupId": "4296f1dc-348d-4c77-9f14-cebb2c761491"
+    },
+    {
+      "id": "c812ecde-5634-4cd8-9d74-18bd5c7f7ec3",
+      "name": "Dolby Digital",
+      "pattern": "(?i)\\bdolbydigital\\b",
+      "type": "filter",
+      "isEnabled": true,
+      "tagStyle": "filled",
+      "tagColor": "#000000",
+      "textColor": "#FFFFFF",
+      "imageURL": "",
+      "groupId": "4296f1dc-348d-4c77-9f14-cebb2c761491"
+    },
+    {
+      "id": "68627598-9c5c-4f35-9401-be929fdc21e0",
+      "name": "FLAC",
+      "pattern": "(?i)\\bflac\\b",
+      "type": "filter",
+      "isEnabled": true,
+      "tagStyle": "filled",
+      "tagColor": "#000000",
+      "textColor": "#FFFFFF",
+      "imageURL": "",
+      "groupId": "4296f1dc-348d-4c77-9f14-cebb2c761491"
+    },
+    {
+      "id": "6c32eff7-0519-40fa-a312-e532592a6d01",
+      "name": "AAC",
+      "pattern": "(?i)\\baac\\b",
+      "type": "filter",
+      "isEnabled": true,
+      "tagStyle": "filled",
+      "tagColor": "#000000",
+      "textColor": "#FFFFFF",
+      "imageURL": "",
+      "groupId": "4296f1dc-348d-4c77-9f14-cebb2c761491"
+    },
+    {
+      "id": "b37c8c0a-bb3a-45a5-a031-b18d684d03f8",
+      "name": "Atmos",
+      "pattern": "(?i)\\batmos\\b",
+      "type": "filter",
+      "isEnabled": true,
+      "tagStyle": "filled",
+      "tagColor": "#000000",
+      "textColor": "#FFFFFF",
+      "imageURL": "",
+      "groupId": "bb1fb6b0-5a51-4cb6-a550-2fe19c07c35f"
+    },
+    {
+      "id": "2db56a83-607e-4b3c-aa74-4a8f3045ef9a",
+      "name": "7.1",
+      "pattern": "(?i)\\b71\\b",
+      "type": "filter",
+      "isEnabled": true,
+      "tagStyle": "filled",
+      "tagColor": "#000000",
+      "textColor": "#FFFFFF",
+      "imageURL": "",
+      "groupId": "bb1fb6b0-5a51-4cb6-a550-2fe19c07c35f"
+    },
+    {
+      "id": "94840eec-b4a5-46aa-b573-81855ac957c0",
+      "name": "5.1",
+      "pattern": "(?i)\\b51\\b",
+      "type": "filter",
+      "isEnabled": true,
+      "tagStyle": "filled",
+      "tagColor": "#000000",
+      "textColor": "#FFFFFF",
+      "imageURL": "",
+      "groupId": "bb1fb6b0-5a51-4cb6-a550-2fe19c07c35f"
+    },
+    {
+      "id": "bf893518-e41c-4dbe-9c80-eb6e664660fb",
+      "name": "2.0",
+      "pattern": "(?i)\\b20\\b",
+      "type": "filter",
+      "isEnabled": true,
+      "tagStyle": "filled",
+      "tagColor": "#000000",
+      "textColor": "#FFFFFF",
+      "imageURL": "",
+      "groupId": "bb1fb6b0-5a51-4cb6-a550-2fe19c07c35f"
+    },
+    {
+      "id": "c0aa8891-361e-4f98-bae2-8f3b9ae34c0f",
+      "name": "English",
+      "pattern": "(?i)\\benglish\\b",
+      "type": "filter",
+      "isEnabled": true,
+      "tagStyle": "filled",
+      "tagColor": "#000000",
+      "textColor": "#FFFFFF",
+      "imageURL": "",
+      "groupId": "06a38a24-022f-4a04-a0aa-09e8bbf94f28"
+    },
+    {
+      "id": "52ad3376-3ef1-40eb-bf26-39453e9506c2",
+      "name": "Japanese",
+      "pattern": "(?i)\\bjapanese\\b",
+      "type": "filter",
+      "isEnabled": true,
+      "tagStyle": "filled",
+      "tagColor": "#000000",
+      "textColor": "#FFFFFF",
+      "imageURL": "",
+      "groupId": "06a38a24-022f-4a04-a0aa-09e8bbf94f28"
+    },
+    {
+      "id": "288b347f-8534-4758-8429-b046c055787d",
+      "name": "French",
+      "pattern": "(?i)\\bfrench\\b",
+      "type": "filter",
+      "isEnabled": true,
+      "tagStyle": "filled",
+      "tagColor": "#000000",
+      "textColor": "#FFFFFF",
+      "imageURL": "",
+      "groupId": "06a38a24-022f-4a04-a0aa-09e8bbf94f28"
+    },
+    {
+      "id": "f54a6025-20da-4005-8fc0-2344f0675f6d",
+      "name": "German",
+      "pattern": "(?i)\\bgerman\\b",
+      "type": "filter",
+      "isEnabled": true,
+      "tagStyle": "filled",
+      "tagColor": "#000000",
+      "textColor": "#FFFFFF",
+      "imageURL": "",
+      "groupId": "06a38a24-022f-4a04-a0aa-09e8bbf94f28"
+    },
+    {
+      "id": "0d443217-2c23-410a-863f-bfb0e6a40abd",
+      "name": "Spanish",
+      "pattern": "(?i)\\bspanish\\b",
+      "type": "filter",
+      "isEnabled": true,
+      "tagStyle": "filled",
+      "tagColor": "#000000",
+      "textColor": "#FFFFFF",
+      "imageURL": "",
+      "groupId": "06a38a24-022f-4a04-a0aa-09e8bbf94f28"
+    },
+    {
+      "id": "a662b66d-d095-44e9-8841-b9e9e1e12260",
+      "name": "Hindi",
+      "pattern": "(?i)\\bhindi\\b",
+      "type": "filter",
+      "isEnabled": true,
+      "tagStyle": "filled",
+      "tagColor": "#000000",
+      "textColor": "#FFFFFF",
+      "imageURL": "",
+      "groupId": "06a38a24-022f-4a04-a0aa-09e8bbf94f28"
+    },
+    {
+      "id": "e124265f-2433-45a2-99ba-ac4a006735d3",
+      "name": "Korean",
+      "pattern": "(?i)\\bKorean\\b",
+      "type": "filter",
+      "isEnabled": true,
+      "tagStyle": "filled",
+      "tagColor": "#000000",
+      "textColor": "#FFFFFF",
+      "imageURL": "",
+      "groupId": "06a38a24-022f-4a04-a0aa-09e8bbf94f28"
+    }
+  ]
+}
