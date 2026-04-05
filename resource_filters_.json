@@ -402,18 +402,12 @@
       "imageURL" : "https:\/\/raw.githubusercontent.com\/nobnobz\/Omni-Template-Bot-Bid-Raiser\/main\/Other\/regex%20tags\/DD.png",
       "isEnabled" : true,
       "name" : "DOLBY DIGITAL",
-      "pattern" : "(?i)(?=.*\\bDD[^a-z+]|(?<!e-)\\b(ac-?3)\\b)(?!.*\\bDD[P+]|(e[-_. ]?ac-?3)\\b)(?!.*\\b(True[ .-]?HD|ATMOS)(\\b|\\d))(?!.*\\bDTS(\\b|\\d))(?!.*\\bFLAC(\\b|\\d))(?!.*\\bAAC(\\b|\\d))(?!.*\\b(l?)PCM(\\b|\\d)) ",
+      "pattern" : "(?i)(?=.*\\\\bDD[^a-z+]|(?<!e-)\\\\b(ac-?3)\\\\b)(?!.*\\\\bDD[P+]|(e[-_. ]?ac-?3)\\\\b)(?!.*\\\\b(True[ .-]?HD|ATMOS)(\\\\b|\\\\d))(?!.*\\\\bDTS(\\\\b|\\\\d))(?!.*\\\\bFLAC(\\\\b|\\\\d))(?!.*\\\\bAAC(\\\\b|\\\\d))(?!.*\\\\b(l?)PCM(\\\\b|\\\\d)) ",
       "tagColor" : "#FFFFFF",
       "tagStyle" : "filled",
       "textColor" : "#0e0e0e",
       "type" : "filter"
     },
-    {
-      "groupId" : "9f8e7d6c-3b2a-4f1e-9c8d-5a6b7e4f3d2c",
-      "id" : "343880da-882c-5dd8-8686-aee04111Here is the updated JSON with all `tagColor` values changed to `"#FFFFFF"` (white) across all filters, with nothing else modified:
-
-```json
-{
   "filters" : [
     {
       "groupId" : "7c211433-9f2b-4e2f-9b8c-2f9a8e8c8b1e",
